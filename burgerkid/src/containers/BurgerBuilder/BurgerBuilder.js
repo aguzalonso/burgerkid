@@ -77,7 +77,7 @@ class BurgerBuilder extends Component {
     }
 
     purchaseContinueHandler = () => {
-        alert('You cotinua!')
+        alert(`You cotinua! Your hamburger is ${this.state.totalPrice.toFixed(2)}`)
     }
 
     render() {
